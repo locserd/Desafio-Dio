@@ -2,4 +2,4 @@
 ## Desafios:
  1. Criar um  repositório no GitHub
 
-> O repositório é atualizado a partir do surgimento de novos desafios.
+> O repositório é atualizado a partir de novos desafios.
