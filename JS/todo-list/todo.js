@@ -9,13 +9,27 @@ form.onsubmit = function (e) {
 }
 
 function criar(task) {
-  const listaElemento = document.createElement('span');
-  const tarefa = document.createTextNode(task);
-  const quebralinha = document.createElement('br');
 
 
-  listaElemento.appendChild(tarefa);
-  listaElemento.appendChild(quebralinha);
-  todolist.appendChild(listaElemento);
+  const divElemento = document.createElement('div');
+  const inputElemento = document.createElement('input');
+  const labelElemento = document.createElement('label');
+
+	divElemento.classList.add('form-check');
+	inputElemento.classList.add('form-check-input');
+	inputElemento.setAttribute('type','checkbox');
+
+	inputElemento.setAttribute('name', task);
+	inputElemento.setAttribute('id','flexCheckDefault');
+	labelElemento.classList.add('form-check-label');
+	labelElemento.setAttribute('for','flexCheckDefault');
+  labelElemento.setAttribute('id',task);
+
+
+	divElemento.appendChild(inputElemento);
+	inputElemento.after(labelElemento);
+	labelElemento.innerHTML = task;
+
+	todolist.appendChild(divElemento);
 
 }
