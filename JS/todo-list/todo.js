@@ -33,3 +33,7 @@ function criar(task) {
 	todolist.appendChild(divElemento);
 
 }
+function limpatudo() {
+	todolist.innerHTML = "";
+
+}
