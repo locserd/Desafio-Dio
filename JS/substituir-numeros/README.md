@@ -3,4 +3,4 @@
 
 Uso: "node substituir.js array[]"
 
-Ex.: ```node comparador.js 12 32 4 5 13 0``
+Ex.: ```node comparador.js 12 32 4 5 13 0```
