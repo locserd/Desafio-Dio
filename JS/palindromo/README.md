@@ -3,4 +3,4 @@
 
 Uso: "node palindromo.js palavra"
 
-Ex.: ```node comparador.js ovo```
+Ex.: ```node palindromo.js ovo```
