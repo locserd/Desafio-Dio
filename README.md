@@ -5,6 +5,6 @@
  3. Criar uma lista de tarefas em JavaScript
  4. Comparador de números em JavaScript
  5. Verificar palíndromo
- 6. Substituir números pares em um array (!!!)
+ 6. Substituir números pares em um array 
 
 > O repositório é atualizado a partir de novos desafios.
