@@ -39,7 +39,7 @@ function aprovaAluno(alunos,media){
     } 
     
     
-    return `Alunos aprovados: \n ${aprovados} \nAlunos Resaprovados: \n ${reprovados}`;
+    return `Alunos aprovados: \n ${aprovados} \nAlunos Reprovados: \n ${reprovados}`;
 }
 
 console.log(aprovaAluno(alunos,5));
