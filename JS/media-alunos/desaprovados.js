@@ -18,28 +18,19 @@ const alunos = [
 ];
 
 
-function aprovaAluno(alunos,media){
-    let aprovados = [];
+function desaprovaAluno(alunos,media){
     let desaprovados = alunos;
     
-
     for (let index = 0; index < alunos.length; index++) {
         let aluno = alunos[index];
+        let desaprovados = alunos;
         
         if(aluno.nota >= media){
-            aprovados.push(aluno.nome);
             desaprovados.splice(alunos.indexOf(aluno),1);
             index--;
         }
     }
-    
-    let reprovados = [];
-    for (let index = 0; index < desaprovados.length; index++) { // substituir por delete desaprovados.nota
-        reprovados[index] = desaprovados[index].nome;
-    } 
-    
-    
-    return `Alunos aprovados: \n ${aprovados} \nAlunos Resaprovados: \n ${reprovados}`;
-}
+    return desaprovados;
 
-console.log(aprovaAluno(alunos,5));
+}
+console.log(desaprovaAluno(alunos,5));
