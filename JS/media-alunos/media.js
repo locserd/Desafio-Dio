@@ -42,4 +42,4 @@ function aprovaAluno(alunos,media){
     return `Alunos aprovados: \n ${aprovados} \nAlunos Reprovados: \n ${reprovados}`;
 }
 
-console.log(aprovaAluno(alunos,5));
+console.log(aprovaAluno(alunos,5));//ok
